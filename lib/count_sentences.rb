@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     length.split(self.match(/[!|.|?][" "]\b[A-Z]/))
-    
+
   end
 end
