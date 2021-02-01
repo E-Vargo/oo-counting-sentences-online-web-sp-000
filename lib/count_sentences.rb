@@ -18,6 +18,6 @@ class String
     array = split(self.match(/[!|.|?][" "]\b[A-Z]/))
 
     array.length
-    binding.pry
+
   end
 end
