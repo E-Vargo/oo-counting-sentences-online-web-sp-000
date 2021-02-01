@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    array = split(/[!|.|?][" "]\b[A-Z]/)
+    array = split(/[!|.|?][" "]\b[A-Za-z]/)
 
     array.length
 
